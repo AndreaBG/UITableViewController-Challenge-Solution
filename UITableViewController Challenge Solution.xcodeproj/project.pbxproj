@@ -14,7 +14,6 @@
 		239BCFA71873D43E009FC03F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BCFA61873D43E009FC03F /* main.m */; };
 		239BCFAB1873D43E009FC03F /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BCFAA1873D43E009FC03F /* ASAppDelegate.m */; };
 		239BCFAE1873D43E009FC03F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239BCFAC1873D43E009FC03F /* Main.storyboard */; };
-		239BCFB11873D43E009FC03F /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BCFB01873D43E009FC03F /* ASViewController.m */; };
 		239BCFB31873D43E009FC03F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239BCFB21873D43E009FC03F /* Images.xcassets */; };
 		239BCFBA1873D43E009FC03F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239BCFB91873D43E009FC03F /* XCTest.framework */; };
 		239BCFBB1873D43E009FC03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239BCF9A1873D43E009FC03F /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		239BCFA91873D43E009FC03F /* ASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
 		239BCFAA1873D43E009FC03F /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
 		239BCFAD1873D43E009FC03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		239BCFAF1873D43E009FC03F /* ASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
-		239BCFB01873D43E009FC03F /* ASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
 		239BCFB21873D43E009FC03F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		239BCFB81873D43E009FC03F /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		239BCFB91873D43E009FC03F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				239BCFA91873D43E009FC03F /* ASAppDelegate.h */,
 				239BCFAA1873D43E009FC03F /* ASAppDelegate.m */,
 				239BCFAC1873D43E009FC03F /* Main.storyboard */,
-				239BCFAF1873D43E009FC03F /* ASViewController.h */,
-				239BCFB01873D43E009FC03F /* ASViewController.m */,
 				239BCFB21873D43E009FC03F /* Images.xcassets */,
 				239BCFA11873D43E009FC03F /* Supporting Files */,
 			);
@@ -251,7 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				239BCFAB1873D43E009FC03F /* ASAppDelegate.m in Sources */,
-				239BCFB11873D43E009FC03F /* ASViewController.m in Sources */,
 				239BCFA71873D43E009FC03F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
